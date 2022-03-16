@@ -1,16 +1,4 @@
 export type AmplifyDependentResourcesAttributes = {
-    "auth": {
-        "amplifyapp9eadd3a4": {
-            "IdentityPoolId": "string",
-            "IdentityPoolName": "string",
-            "UserPoolId": "string",
-            "UserPoolArn": "string",
-            "UserPoolName": "string",
-            "AppClientIDWeb": "string",
-            "AppClientID": "string",
-            "CreatedSNSRole": "string"
-        }
-    },
     "api": {
         "amplifyapp": {
             "GraphQLAPIKeyOutput": "string",
@@ -18,10 +6,15 @@ export type AmplifyDependentResourcesAttributes = {
             "GraphQLAPIEndpointOutput": "string"
         }
     },
-    "storage": {
-        "imagestorage": {
-            "BucketName": "string",
-            "Region": "string"
+    "auth": {
+        "amplifyapp5ea94f0b": {
+            "IdentityPoolId": "string",
+            "IdentityPoolName": "string",
+            "UserPoolId": "string",
+            "UserPoolArn": "string",
+            "UserPoolName": "string",
+            "AppClientIDWeb": "string",
+            "AppClientID": "string"
         }
     }
 }
